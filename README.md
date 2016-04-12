@@ -61,7 +61,7 @@ $ php yii migrate/up --migrationPath=@vendor/romi45/yii2-russian-banks-handbook/
 Для первоначальной загрузки или обновления данных справочника используйте консольную команду:
 
 ```bash
-$ yii rusbankshb/update [/path/to/file]
+$ php yii rusbankshb/update [/path/to/file]
 ```
 
 [/path/to/file] - абсолютный путь или alias до базы данных справочника (указывать не обязательно).
@@ -77,13 +77,13 @@ $ yii rusbankshb/update [/path/to/file]
 Далее положите его куда вам хочется выполните команду:
 
 ```bash
-$ yii rusbankshb/update /абсолютный/путь/до/bnkseek.dbf
+$ php yii rusbankshb/update /абсолютный/путь/до/bnkseek.dbf
 ```
 
 Повторю - команду можно запускать, не указывая файл:
 
 ```bash
-$ yii rusbankshb/update
+$ php yii rusbankshb/update
 ```
 
 В таком случае скрипт возьмет данные из файла /data/bnkseek.dbf - база на 13.04.2016
