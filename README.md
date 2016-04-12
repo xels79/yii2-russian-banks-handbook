@@ -15,13 +15,13 @@ $ echo "extension=dbase.so" >> /etc/php5/cli/php.ini
 Используйте [composer](http://getcomposer.org/download/).
 
 ```bash
-$ composer require romi45/yii2-russian-banks-handbook:~1.0
+$ composer require romi45/yii2-russian-banks-handbook
 ```
 
 или добавьте
 
 ```
-"romi45/yii2-russian-banks-handbook": "~1.0"
+"romi45/yii2-russian-banks-handbook": "^1.0"
 ```
 в секцию `require` файла `composer.json`
 
