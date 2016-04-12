@@ -4,9 +4,12 @@
 
 Для работы консольного скрипта обновления справочника вам понадобится расширение php [dbase](https://pecl.php.net/package/dbase)
 
-Установить расширение dbase можно так: sudo pecl install dbase
-И не забудьте внести в /etc/php5/cli/php.ini запись: extension=dbase.so
+Установить расширение dbase можно так:
 
+```bash
+$ sudo pecl install dbase
+$ echo "extension=dbase.so" >> /etc/php5/cli/php.ini
+```
 ## Установка
 
 Используйте [composer](http://getcomposer.org/download/).
