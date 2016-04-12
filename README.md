@@ -46,7 +46,7 @@ $ composer require romi45/yii2-russian-banks-handbook:~1.0
 ```php
 'modules' => [
     ...
-    'rusbankshb' => 'class' => 'rusbankshb\Module',
+    'rusbankshb' => 'rusbankshb\Module',
     ...
 ]
 ```
@@ -64,7 +64,8 @@ $ php yii migrate/up --migrationPath=@vendor/romi45/yii2-russian-banks-handbook/
 $ yii rusbankshb/update [/path/to/file]
 ```
 
-[/path/to/file] - абсолютный путь или alias до базы данных справочника (указывать не обязательно). Если не указывать - будет использован файл /data/bnkseek.dbf - это база на 13.04.2016
+[/path/to/file] - абсолютный путь или alias до базы данных справочника (указывать не обязательно).
+Если не указывать - будет использован файл /data/bnkseek.dbf - это база на 13.04.2016
 
 
 
