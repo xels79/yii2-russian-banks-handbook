@@ -1,0 +1,28 @@
+{
+  "name": "romi45/yii2-russian-banks-handbook",
+  "description": "Справочник БИК банков России для Yii2",
+  "keywords": [
+    "yii2",
+    "romi45",
+    "Справочник БИК",
+    "API БИК"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Agilov",
+      "email": "agilovr@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "ext-dbase": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "rusbankshb\\": ""
+    }
+  }
+}
